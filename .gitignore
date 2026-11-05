@@ -1,8 +1,15 @@
+# Database secrets
 secrets/
-proxy/certs/
+*.env
+
+# Database backups
 backups/
+*.sql
+*.sql.gz
+
+# Python
 __pycache__/
 *.pyc
-.venv/
-logs/
-reports/
+venv/
+
+# Evidence generated locally
